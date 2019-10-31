@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./frontend/out-tsc/app",
+    "types": []
+  },
+  "include": [
+    "frontend/src/**/*.ts"
+  ],
+  "exclude": [
+    "frontend/src/test.ts",
+    "frontend/src/**/*.spec.ts"
+  ]
+}
